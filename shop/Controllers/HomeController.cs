@@ -32,6 +32,7 @@ namespace shop.Controllers
         {
             OrderViewModel order = new OrderViewModel();
             order.OrderId = 1;
+            
             return View(order);
         }
         
